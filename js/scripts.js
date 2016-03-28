@@ -20,6 +20,10 @@ $(document).ready(function() {
 
     array2.push(array[2], array[4], array[1]);
 
+    $("#first").text(array2[0]);
+    $("#second").text(array2[1]);
+    $("#third").text(array2[2]);
+    
     console.log(array2);
     event.preventDefault();
   });
